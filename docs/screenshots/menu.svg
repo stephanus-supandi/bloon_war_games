@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Consolas, Menlo, monospace">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#070b14"/>
+      <stop offset="1" stop-color="#0d1626"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#13283c" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="radar" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#00ffc8" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#00ffc8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect width="1280" height="720" fill="url(#grid)" opacity="0.35"/>
+
+  <rect x="20" y="18" width="1240" height="72" rx="10" fill="#101628" stroke="#00c8b4"/>
+  <text x="42" y="48" font-size="26" fill="#00ffc8" font-weight="700">BLOON WAR GAMES v0.1.2f</text>
+  <text x="42" y="74" font-size="15" fill="#64788c">SOVEREIGNTY &amp; DIPLOMACY</text>
+
+  <text x="640" y="205" text-anchor="middle" font-size="56" fill="#00ffc8" font-weight="700">BLOON WAR GAMES</text>
+  <text x="640" y="250" text-anchor="middle" font-size="28" fill="#ffb400">SOVEREIGNTY &amp; DIPLOMACY</text>
+  <text x="640" y="290" text-anchor="middle" font-size="18" fill="#64788c">Indonesian Maritime Exercise Simulator — Educational Game</text>
+  <text x="640" y="322" text-anchor="middle" font-size="15" fill="#ff3c3c">EDUCATIONAL SIMULATION — SIMPLIFIED LEGAL MODEL</text>
+
+  <rect x="490" y="370" width="300" height="46" rx="9" fill="#143246" stroke="#00c8b4"/>
+  <text x="640" y="400" text-anchor="middle" font-size="18" fill="#c8dce6">START CAMPAIGN</text>
+
+  <rect x="490" y="430" width="300" height="46" rx="9" fill="#143246" stroke="#00c8b4"/>
+  <text x="640" y="460" text-anchor="middle" font-size="18" fill="#c8dce6">ENCYCLOPEDIA</text>
+
+  <rect x="490" y="490" width="300" height="46" rx="9" fill="#143246" stroke="#00c8b4"/>
+  <text x="640" y="520" text-anchor="middle" font-size="18" fill="#c8dce6">QUIT</text>
+
+  <circle cx="640" cy="600" r="80" fill="url(#radar)" stroke="#143c50"/>
+  <circle cx="640" cy="600" r="42" fill="none" stroke="#143c50"/>
+  <line x1="640" y1="600" x2="710" y2="555" stroke="#00ffc8" stroke-width="2"/>
+  <circle cx="676" cy="574" r="3" fill="#00ffc8"/>
+  <circle cx="615" cy="625" r="2" fill="#00ffc8"/>
+
+  <text x="640" y="706" text-anchor="middle" font-size="13" fill="#64788c">
+    NOT A MILITARY TRAINING SYSTEM — DECISION-MAKING SIMULATION
+  </text>
+</svg>

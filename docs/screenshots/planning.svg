@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Consolas, Menlo, monospace">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#070b14"/>
+      <stop offset="1" stop-color="#0d1626"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#13283c" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect width="1280" height="720" fill="url(#grid)" opacity="0.3"/>
+
+  <rect x="0" y="0" width="1280" height="56" fill="#101628" stroke="#00c8b4"/>
+  <text x="18" y="26" font-size="20" fill="#00ffc8" font-weight="700">BLOON WAR GAMES v0.1.2f</text>
+  <text x="18" y="45" font-size="12" fill="#64788c">SOVEREIGNTY &amp; DIPLOMACY</text>
+  <text x="640" y="34" text-anchor="middle" font-size="18" fill="#ffb400">PLANNING — Mission 4: Maritime Security Patrol</text>
+
+  <text x="24" y="66" font-size="12" fill="#ffb400">MAP MODE: [CONCEPTUAL] — Schematic boundaries, not authoritative.</text>
+
+  <rect x="20" y="76" width="780" height="480" fill="#081230" stroke="#00c8b4"/>
+  <rect x="80" y="160" width="580" height="260" fill="#1e50b4" opacity="0.10"/>
+  <rect x="120" y="200" width="500" height="180" fill="#1e50b4" opacity="0.16"/>
+
+  <g transform="translate(20,76)" fill="#1e5032" stroke="#2f6b42">
+    <polygon points="30,80 60,55 100,70 150,120 200,175 235,220 255,265 245,285 225,265 185,215 135,160 85,110 40,90"/>
+    <polygon points="210,310 260,295 320,290 380,295 430,305 445,318 435,328 385,322 325,318 265,318 215,322"/>
+    <polygon points="285,80 345,55 410,65 450,100 460,155 450,205 420,245 375,265 335,255 305,225 285,185 275,130"/>
+    <polygon points="485,120 515,95 540,115 530,155 545,180 565,205 555,235 535,255 515,235 505,205 495,175 485,150"/>
+    <polygon points="625,150 685,125 745,135 765,170 755,215 725,245 685,255 645,235 625,200"/>
+  </g>
+
+  <text x="330" y="430" font-size="13" fill="#2f5f8f">Java Sea</text>
+  <text x="250" y="190" font-size="13" fill="#2f5f8f">South China Sea</text>
+  <text x="310" y="210" font-size="13" fill="#2f5f8f">North Natuna Sea</text>
+  <text x="470" y="350" font-size="13" fill="#2f5f8f">Makassar Strait</text>
+  <text x="660" y="450" font-size="13" fill="#2f5f8f">Arafura Sea</text>
+
+  <circle cx="735" cy="130" r="34" fill="none" stroke="#143c50"/>
+  <line x1="735" y1="130" x2="765" y2="106" stroke="#00ffc8"/>
+
+  <rect x="810" y="76" width="450" height="520" rx="10" fill="#101628" stroke="#00c8b4"/>
+
+  <text x="825" y="102" font-size="16" fill="#00ffc8" font-weight="700">EXERCISE TYPE</text>
+
+  <rect x="825" y="112" width="205" height="18" fill="#00a58c" stroke="#00c8b4"/>
+  <text x="830" y="125" font-size="12" fill="#071018">Maritime Security</text>
+
+  <rect x="825" y="133" width="205" height="18" fill="#143246" stroke="#00c8b4"/>
+  <text x="830" y="146" font-size="12" fill="#c8dce6">Combat Readiness</text>
+
+  <rect x="825" y="154" width="205" height="18" fill="#143246" stroke="#00c8b4"/>
+  <text x="830" y="167" font-size="12" fill="#c8dce6">SAR</text>
+
+  <rect x="825" y="175" width="205" height="18" fill="#143246" stroke="#00c8b4"/>
+  <text x="830" y="188" font-size="12" fill="#c8dce6">HADR</text>
+
+  <rect x="825" y="196" width="205" height="18" fill="#143246" stroke="#00c8b4"/>
+  <text x="830" y="209" font-size="12" fill="#c8dce6">Military Medicine</text>
+
+  <rect x="825" y="217" width="205" height="18" fill="#143246" stroke="#00c8b4"/>
+  <text x="830" y="230" font-size="12" fill="#c8dce6">Peacekeeping Prep</text>
+
+  <rect x="825" y="238" width="205" height="18" fill="#143246" stroke="#00c8b4"/>
+  <text x="830" y="251" font-size="12" fill="#c8dce6">ASW</text>
+
+  <rect x="825" y="259" width="205" height="18" fill="#143246" stroke="#00c8b4"/>
+  <text x="830" y="272" font-size="12" fill="#c8dce6">Live Fire Exercise</text>
+
+  <text x="825" y="302" font-size="16" fill="#00ffc8" font-weight="700">LOCATION</text>
+
+  <rect x="825" y="312" width="205" height="18" fill="#00a58c" stroke="#00c8b4"/>
+  <text x="830" y="325" font-size="12" fill="#071018">North Natuna Sea [EEZ]</text>
+
+  <rect x="825" y="333" width="205" height="18" fill="#143246" stroke="#00c8b4"/>
+  <text x="830" y="346" font-size="12" fill="#c8dce6">Java Sea [Archipelagic]</text>
+
+  <rect x="825" y="354" width="205" height="18" fill="#143246" stroke="#00c8b4"/>
+  <text x="830" y="367" font-size="12" fill="#c8dce6">Makassar Strait [Arch]</text>
+
+  <rect x="825" y="375" width="205" height="18" fill="#143246" stroke="#00c8b4"/>
+  <text x="830" y="388" font-size="12" fill="#c8dce6">Arafura Sea [EEZ]</text>
+
+  <rect x="825" y="396" width="205" height="18" fill="#143246" stroke="#00c8b4"/>
+  <text x="830" y="409" font-size="12" fill="#c8dce6">Indian Ocean [EEZ]</text>
+
+  <rect x="825" y="417" width="205" height="18" fill="#143246" stroke="#00c8b4"/>
+  <text x="830" y="430" font-size="12" fill="#c8dce6">Pacific Ocean [EEZ]</text>
+
+  <rect x="825" y="438" width="205" height="18" fill="#143246" stroke="#00c8b4"/>
+  <text x="830" y="451" font-size="12" fill="#c8dce6">Internal Waters</text>
+
+  <rect x="825" y="459" width="205" height="18" fill="#143246" stroke="#00c8b4"/>
+  <text x="830" y="472" font-size="12" fill="#c8dce6">Territorial Sea</text>
+
+  <text x="1050" y="102" font-size="16" fill="#00ffc8" font-weight="700">PARTICIPANTS</text>
+
+  <rect x="1050" y="112" width="195" height="18" fill="#00a58c" stroke="#00c8b4"/>
+  <text x="1055" y="125" font-size="12" fill="#071018">Indonesia</text>
+
+  <rect x="1050" y="133" width="195" height="18" fill="#143246" stroke="#00c8b4"/>
+  <text x="1055" y="146" font-size="12" fill="#c8dce6">Australia</text>
+
+  <rect x="1050" y="154" width="195" height="18" fill="#143246" stroke="#00c8b4"/>
+  <text x="1055" y="167" font-size="12" fill="#c8dce6">Singapore</text>
+
+  <rect x="1050" y="175" width="195" height="18" fill="#143246" stroke="#00c8b4"/>
+  <text x="1055" y="188" font-size="12" fill="#c8dce6">Malaysia</text>
+
+  <rect x="1050" y="196" width="195" height="18" fill="#143246" stroke="#00c8b4"/>
+  <text x="1055" y="209" font-size="12" fill="#c8dce6">Japan</text>
+
+  <rect x="1050" y="217" width="195" height="18" fill="#143246" stroke="#00c8b4"/>
+  <text x="1055" y="230" font-size="12" fill="#c8dce6">United States</text>
+
+  <rect x="1050" y="238" width="195" height="18" fill="#143246" stroke="#00c8b4"/>
+  <text x="1055" y="251" font-size="12" fill="#c8dce6">India</text>
+
+  <rect x="1050" y="259" width="195" height="18" fill="#143246" stroke="#00c8b4"/>
+  <text x="1055" y="272" font-size="12" fill="#c8dce6">South Korea</text>
+
+  <rect x="0" y="612" width="1280" height="52" fill="#101628" stroke="#00c8b4"/>
+
+  <text x="12" y="630" font-size="11" fill="#64788c">READINESS</text>
+  <rect x="12" y="636" width="120" height="10" fill="#151522" stroke="#00c8b4"/>
+  <rect x="12" y="636" width="70" height="10" fill="#00ffc8"/>
+  <text x="138" y="645" font-size="11" fill="#00ffc8">58</text>
+
+  <text x="220" y="630" font-size="11" fill="#64788c">DIPLOMACY</text>
+  <rect x="220" y="636" width="120" height="10" fill="#151522" stroke="#00c8b4"/>
+  <rect x="220" y="636" width="72" height="10" fill="#64b4ff"/>
+  <text x="346" y="645" font-size="11" fill="#64b4ff">60</text>
+
+  <text x="428" y="630" font-size="11" fill="#64788c">LEGAL</text>
+  <rect x="428" y="636" width="120" height="10" fill="#151522" stroke="#00c8b4"/>
+  <rect x="428" y="636" width="59" height="10" fill="#c864ff"/>
+  <text x="554" y="645" font-size="11" fill="#c864ff">49</text>
+
+  <text x="636" y="630" font-size="11" fill="#64788c">SAFETY</text>
+  <rect x="636" y="636" width="120" height="10" fill="#151522" stroke="#00c8b4"/>
+  <rect x="636" y="636" width="88" height="10" fill="#3cff78"/>
+  <text x="762" y="645" font-size="11" fill="#3cff78">73</text>
+
+  <text x="844" y="630" font-size="11" fill="#64788c">TENSION</text>
+  <rect x="844" y="636" width="120" height="10" fill="#151522" stroke="#00c8b4"/>
+  <rect x="844" y="636" width="26" height="10" fill="#ff3c3c"/>
+  <text x="970" y="645" font-size="11" fill="#ff3c3c">22</text>
+
+  <text x="1052" y="630" font-size="11" fill="#64788c">TRUST</text>
+  <rect x="1052" y="636" width="120" height="10" fill="#151522" stroke="#00c8b4"/>
+  <rect x="1052" y="636" width="72" height="10" fill="#ffb400"/>
+  <text x="1178" y="645" font-size="11" fill="#ffb400">60</text>
+
+  <rect x="900" y="672" width="170" height="34" rx="7" fill="#143246" stroke="#00c8b4"/>
+  <text x="985" y="694" text-anchor="middle" font-size="13" fill="#c8dce6">EXECUTE EXERCISE</text>
+
+  <rect x="20" y="672" width="130" height="34" rx="7" fill="#143246" stroke="#00c8b4"/>
+  <text x="85" y="694" text-anchor="middle" font-size="13" fill="#c8dce6">MAP / ZONES</text>
+
+  <rect x="165" y="672" width="130" height="34" rx="7" fill="#143246" stroke="#00c8b4"/>
+  <text x="230" y="694" text-anchor="middle" font-size="13" fill="#c8dce6">ENCYCLOPEDIA</text>
+</svg>

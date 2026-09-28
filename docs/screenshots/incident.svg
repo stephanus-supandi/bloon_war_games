@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Consolas, Menlo, monospace">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#070b14"/>
+      <stop offset="1" stop-color="#0d1626"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#13283c" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect width="1280" height="720" fill="url(#grid)" opacity="0.3"/>
+
+  <rect x="0" y="0" width="1280" height="56" fill="#101628" stroke="#00c8b4"/>
+  <text x="18" y="26" font-size="20" fill="#00ffc8" font-weight="700">BLOON WAR GAMES v0.1.2f</text>
+  <text x="18" y="45" font-size="12" fill="#64788c">SOVEREIGNTY &amp; DIPLOMACY</text>
+  <text x="640" y="34" text-anchor="middle" font-size="18" fill="#ffb400">INCIDENT RESPONSE</text>
+
+  <rect x="100" y="80" width="1080" height="560" rx="12" fill="#101628" stroke="#ff3c3c"/>
+
+  <text x="640" y="132" text-anchor="middle" font-size="30" fill="#ff3c3c" font-weight="700">
+    CIVILIAN VESSEL IN EXERCISE AREA
+  </text>
+
+  <text x="130" y="175" font-size="16" fill="#c8dce6">
+    Civilian fishing vessel entered exercise area. May be unaware of military operations.
+  </text>
+
+  <rect x="130" y="205" width="1020" height="95" rx="8" fill="#0d1320" stroke="#ffb400"/>
+  <text x="145" y="230" font-size="13" fill="#ffb400" font-weight="700">LEGAL BASIS &amp; CONTEXT:</text>
+  <text x="145" y="252" font-size="13" fill="#64788c">
+    LEGAL CONTEXT — Apply the relevant UNCLOS maritime-zone regime and circumstances.
+  </text>
+  <text x="145" y="274" font-size="13" fill="#64788c">
+    ZONE CONTEXT: Applicable framework: EEZ rights/duties distinct from sovereignty.
+  </text>
+
+  <text x="130" y="335" font-size="16" fill="#00ffc8" font-weight="700">RESPONSE:</text>
+
+  <rect x="130" y="350" width="1020" height="44" rx="8" fill="#143246" stroke="#00c8b4"/>
+  <text x="145" y="378" font-size="14" fill="#c8dce6">[A] Issue radio warning</text>
+  <text x="900" y="378" font-size="13" fill="#64788c">R:+0 T:+0 S:+5 | Legal: Low</text>
+
+  <rect x="130" y="405" width="1020" height="44" rx="8" fill="#143246" stroke="#00c8b4"/>
+  <text x="145" y="433" font-size="14" fill="#c8dce6">[B] Suspend exercise temporarily</text>
+  <text x="900" y="433" font-size="13" fill="#64788c">R:-3 T:+0 S:+8 | Legal: Low</text>
+
+  <rect x="130" y="460" width="1020" height="44" rx="8" fill="#143246" stroke="#00c8b4"/>
+  <text x="145" y="488" font-size="14" fill="#c8dce6">[C] Ignore vessel</text>
+  <text x="900" y="488" font-size="13" fill="#64788c">R:+2 T:+5 S:-15 | Legal: High</text>
+
+  <rect x="0" y="612" width="1280" height="52" fill="#101628" stroke="#00c8b4"/>
+
+  <text x="12" y="630" font-size="11" fill="#64788c">READINESS</text>
+  <rect x="12" y="636" width="120" height="10" fill="#151522" stroke="#00c8b4"/>
+  <rect x="12" y="636" width="70" height="10" fill="#00ffc8"/>
+  <text x="138" y="645" font-size="11" fill="#00ffc8">58</text>
+
+  <text x="220" y="630" font-size="11" fill="#64788c">DIPLOMACY</text>
+  <rect x="220" y="636" width="120" height="10" fill="#151522" stroke="#00c8b4"/>
+  <rect x="220" y="636" width="72" height="10" fill="#64b4ff"/>
+  <text x="346" y="645" font-size="11" fill="#64b4ff">60</text>
+
+  <text x="428" y="630" font-size="11" fill="#64788c">LEGAL</text>
+  <rect x="428" y="636" width="120" height="10" fill="#151522" stroke="#00c8b4"/>
+  <rect x="428" y="636" width="59" height="10" fill="#c864ff"/>
+  <text x="554" y="645" font-size="11" fill="#c864ff">49</text>
+
+  <text x="636" y="630" font-size="11" fill="#64788c">SAFETY</text>
+  <rect x="636" y="636" width="120" height="10" fill="#151522" stroke="#00c8b4"/>
+  <rect x="636" y="636" width="88" height="10" fill="#3cff78"/>
+  <text x="762" y="645" font-size="11" fill="#3cff78">73</text>
+
+  <text x="844" y="630" font-size="11" fill="#64788c">TENSION</text>
+  <rect x="844" y="636" width="120" height="10" fill="#151522" stroke="#00c8b4"/>
+  <rect x="844" y="636" width="26" height="10" fill="#ff3c3c"/>
+  <text x="970" y="645" font-size="11" fill="#ff3c3c">22</text>
+
+  <text x="1052" y="630" font-size="11" fill="#64788c">TRUST</text>
+  <rect x="1052" y="636" width="120" height="10" fill="#151522" stroke="#00c8b4"/>
+  <rect x="1052" y="636" width="72" height="10" fill="#ffb400"/>
+  <text x="1178" y="645" font-size="11" fill="#ffb400">60</text>
+
+  <text x="640" y="695" text-anchor="middle" font-size="13" fill="#64788c">
+    Select response to continue simulation.
+  </text>
+</svg>

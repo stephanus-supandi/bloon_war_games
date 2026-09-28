@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Consolas, Menlo, monospace">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#070b14"/>
+      <stop offset="1" stop-color="#0d1626"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#13283c" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect width="1280" height="720" fill="url(#grid)" opacity="0.3"/>
+
+  <rect x="0" y="0" width="1280" height="56" fill="#101628" stroke="#00c8b4"/>
+  <text x="18" y="26" font-size="20" fill="#00ffc8" font-weight="700">BLOON WAR GAMES v0.1.2f</text>
+  <text x="18" y="45" font-size="12" fill="#64788c">SOVEREIGNTY &amp; DIPLOMACY</text>
+  <text x="640" y="34" text-anchor="middle" font-size="18" fill="#ffb400">AFTER ACTION REPORT</text>
+
+  <rect x="100" y="75" width="1080" height="580" rx="12" fill="#101628" stroke="#00c8b4"/>
+
+  <text x="640" y="128" text-anchor="middle" font-size="34" fill="#3cff78" font-weight="700">
+    MISSION COMPLETE
+  </text>
+
+  <text x="140" y="185" font-size="16" fill="#00ffc8" font-weight="700">
+    ACTUAL APPLIED DELTA:
+  </text>
+
+  <text x="160" y="220" font-size="15" fill="#3cff78">Readiness</text>
+  <text x="420" y="220" font-size="15" fill="#3cff78">+8</text>
+  <rect x="520" y="208" width="320" height="12" fill="#151522" stroke="#00c8b4"/>
+  <rect x="520" y="208" width="180" height="12" fill="#3cff78"/>
+
+  <text x="160" y="255" font-size="15" fill="#ff3c3c">Tension</text>
+  <text x="420" y="255" font-size="15" fill="#ff3c3c">+2</text>
+  <rect x="520" y="243" width="320" height="12" fill="#151522" stroke="#00c8b4"/>
+  <rect x="520" y="243" width="45" height="12" fill="#ff3c3c"/>
+
+  <text x="160" y="290" font-size="15" fill="#3cff78">Safety</text>
+  <text x="420" y="290" font-size="15" fill="#3cff78">+8</text>
+  <rect x="520" y="278" width="320" height="12" fill="#151522" stroke="#00c8b4"/>
+  <rect x="520" y="278" width="180" height="12" fill="#3cff78"/>
+
+  <text x="160" y="325" font-size="15" fill="#3cff78">Trust</text>
+  <text x="420" y="325" font-size="15" fill="#3cff78">+7</text>
+  <rect x="520" y="313" width="320" height="12" fill="#151522" stroke="#00c8b4"/>
+  <rect x="520" y="313" width="160" height="12" fill="#3cff78"/>
+
+  <text x="160" y="360" font-size="15" fill="#3cff78">Legal</text>
+  <text x="420" y="360" font-size="15" fill="#3cff78">+1</text>
+  <rect x="520" y="348" width="320" height="12" fill="#151522" stroke="#00c8b4"/>
+  <rect x="520" y="348" width="25" height="12" fill="#3cff78"/>
+
+  <rect x="140" y="395" width="1000" height="75" rx="8" fill="#0d1320" stroke="#ffb400"/>
+  <text x="155" y="422" font-size="14" fill="#ffb400" font-weight="700">LEGAL &amp; DIPLOMATIC COMPLIANCE:</text>
+  <text x="155" y="448" font-size="14" fill="#c8dce6">
+    Objective MET. No simulated rule violation was triggered.
+  </text>
+
+  <text x="140" y="505" font-size="16" fill="#00ffc8" font-weight="700">LESSONS LEARNED:</text>
+  <text x="160" y="535" font-size="14" fill="#c8dce6">
+    • North Natuna Sea is Indonesia's EEZ, but overlapping claims exist.
+  </text>
+  <text x="160" y="560" font-size="14" fill="#c8dce6">
+    • In EEZ, Indonesia has sovereign rights over resources, not full sovereignty.
+  </text>
+
+  <rect x="515" y="600" width="250" height="38" rx="8" fill="#143246" stroke="#00c8b4"/>
+  <text x="640" y="625" text-anchor="middle" font-size="15" fill="#c8dce6">TAKE QUIZ</text>
+</svg>
